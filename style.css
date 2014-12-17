@@ -1,0 +1,37 @@
+body{
+	background-color: green;
+	background: url(http://www.raffaelphoto.com/wp-content/uploads/2013/01/new-york-city-at-night-skyline-panorama1.jpg);
+	background-size: cover;
+}
+
+#game {
+	background-color: white;
+	height: 500px;
+	width: 500px;
+	border: 1px solid black;
+	position: relative; 
+	opacity: 0.75;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circle {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-color: #ABCDEF;
+	position: absolute;
+	cursor: pointer;
+
+}
+
+h1 {
+	font-size: 25;
+	margin-right: auto;
+	margin-left auto;
+}
+
+/*#game is position relative to be able to animate things inside of it;
+.circle is position absolute so we can have circles move within the box*/
+
+/*.circle cursor is changed to pointer so that it changes automatically when the cursor is hovered over*/
